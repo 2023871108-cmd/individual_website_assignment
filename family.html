@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Family Pages</title>
+
+	<style>
+		body 
+		{
+			background-image: url(images/bgwebsitehitam.jpg);
+		}
+		h1
+		{
+			color: lightyellow;
+			font-family: Helvetica;
+		}
+		h2 
+		{
+			font-family: Arial;
+			font-size: 30px;
+			color: darkslategrey;
+			text-align: center;
+			background-color: lightyellow;
+		}
+		h3 
+		{
+			color:powderblue;
+			font-family: Helvetica;
+			font-size: 30px;
+			text-align: center;
+			border: 2px dashed ivory;
+			
+		}
+		p 
+		{
+			color: darkslategrey;
+			font-family: Arial;
+			font-size: 20px;
+			text-align: justify;
+
+		}
+	</style>
+</head>
+<body>
+
+	<h2>.𖥔 ݁ ˖   ✦    ‧₊˚ ⋅ My Family .𖥔 ݁ ˖   ✦    ‧₊˚ ⋅</h2>
+
+	<img src="images/familyphotocard.png" alt="Family phot card header" style="width: 1505px; height: 350px;">
+
+	<h1 style="font-size: 60px; text-align: left; letter-spacing: 3px;"><img src="images/familypic.png" style="float: right; height: 300px; width: 300px;">Introducing<br><i>My Family Members</i></h1>
+
+	<p style="font-family: monospace; font-size: 25px; text-align: left; color: floralwhite;">My family has always been a big part of who I am. They support me in many ways and help me stay motivated in both my studies and daily life. For me, the best thing about memories is making them with my and only one family. <q>In the end, family is all that matters.</q></p>
+
+	<video width="1505" height="300" autoplay controls>
+		<source src="video/videofamily.mp4" type="video/mp4">
+			Your browser does not support video element
+	</video>
+
+
+	<h3> ──────୨ৎ──── My Parents ──────୨ৎ────</h3>
+
+	<script>
+		function Parent(a)
+		{
+			var pic;
+			if (a==2)
+			{
+				pic="images/fatherpic.png"
+			}
+			else
+			{
+				pic="images/mompic.png"
+			}
+			document.getElementById('Parent1').src=pic;
+		}
+	</script>
+
+
+	<img src="images/fatherpic.png" width="300" height="300" id="Parent1">
+	<p>
+		<button type="button" onclick="Parent(2)">Father</button>
+		<button type="button" onclick="Parent(1)">Mother</button>
+
+	</p>
+
+	<p style="background-image: url(images/gridbeigebg.jpg)">My father's name is <b>Rosmadi bin Mohamed</b>. He works as a Manager in a government office. My father is very chill and such an outgoing person to be with. Meanwhile, my mother's name is <b>Amalina binti Yusuf</b> and she works as an Administrative Assistant in a government office too. Honestly, my mom is a little bit hot-headed butt she is very caring and willing to spend her money for me. My parents are the ones that loved me no matter what, looked after me when I were little, and raised me. Repaying them for all the care and affection they showed me is the moral thing to do. </p>
+
+	<h3>──────୨ৎ──── My Siblings ──────୨ৎ────</h3>
+
+	<script>
+		function Sibling(a)
+		{
+			var pic;
+			if (a==2)
+			{
+				pic="images/sisterpic.png"
+			}
+			else
+			{
+				pic="images/brotherpic.png"
+			}
+			document.getElementById('Sibling1').src=pic;
+		}
+	</script>
+
+
+	<img src="images/sisterpic.png" width="300" height="300" id="Sibling1">
+	<p>
+		<button type="button" onclick="Sibling(2)">Older Sister</button>
+		<button type="button" onclick="Sibling(1)">Little Brother</button>
+
+	</p>
+
+	
+
+	<p style="background-image: url(images/gridbeigebg.jpg)">This is my siblings who are still student and currently doing her internships. Even though we al ways tyell at each other and fight, we still need one another. Our relationship is full of love and hate, but that is what makes us family. No matter how much we argue, we will always care and stand by each other. They know my strengths, my weaknesses, and my true self. Having them in my life makes me feel supported, understood, and never alone.</p>
+
+
+	
+
+</body>
+</html>
